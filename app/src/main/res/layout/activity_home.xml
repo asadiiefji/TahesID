@@ -560,6 +560,7 @@
                         android:layout_height="@dimen/_235sdp"
                         android:background="@drawable/card_makanan"
                         android:gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/_10sdp"
                         android:orientation="vertical">
 
                         <ImageView
@@ -858,6 +859,7 @@
                         android:layout_height="@dimen/_235sdp"
                         android:background="@drawable/card_makanan"
                         android:gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/_10sdp"
                         android:orientation="vertical">
 
                         <ImageView
