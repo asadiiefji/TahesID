@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Latihan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_365sdp"
+                android:background="@drawable/bg_latihan"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/textTop"
+                    android:layout_width="@dimen/_280sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/btn_back" />
+
+                    <TextView
+                        android:id="@+id/textTahes"
+                        android:layout_width="@dimen/_150sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_45sdp"
+                        android:gravity="center"
+                        android:text="LATIHAN"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/_13ssp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="@dimen/_280sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="Lebih Berat"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginTop="@dimen/_15sdp"/>
+
+
+                <LinearLayout
+                    android:id="@+id/cariTrainer"
+                    android:layout_width="@dimen/_280sdp"
+                    android:layout_height="@dimen/_175sdp"
+                    android:background="@drawable/bg_card_cari"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/scroll2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_105sdp"
+                            android:layout_height="@dimen/_105sdp"
+                            android:background="@drawable/ilustrasi_card_cari" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="@dimen/_135sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:text="Temukan Personal Trainer"
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_16ssp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="@dimen/_135sdp"
+                                android:layout_height="@dimen/_58sdp"
+                                android:layout_marginTop="@dimen/_7sdp"
+                                android:text="cari personal trainer terdekat agar tujuan awal kita dapat tercapai dengan maksimal."
+                                android:textColor="#ffffff"
+                                android:textSize="@dimen/_12ssp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/_250sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@drawable/btn_cari" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/btn_lain_kali" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/cardLatihan1"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@drawable/card_makanan"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout1" >
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@drawable/dayone"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Day 1"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_18ssp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="10 mnt"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="#C8C8C8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:gravity="center"
+                    android:text="Mulai"
+                    android:textColor="#FF8A00"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardLatihan2"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@drawable/card_makanan"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardLatihan1" >
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@drawable/daytwo"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Day 2"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_18ssp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="10 mnt"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="#C8C8C8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:gravity="center"
+                    android:text="Mulai"
+                    android:textColor="#C2C2C2"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardLatihan3"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@drawable/card_makanan"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardLatihan2" >
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@drawable/daytwo"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Day 3"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_18ssp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="10 mnt"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="#C8C8C8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:gravity="center"
+                    android:text="Mulai"
+                    android:textColor="#C2C2C2"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardLatihan4"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@drawable/card_makanan"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardLatihan3" >
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@drawable/daytwo"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Day 4"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_18ssp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="10 mnt"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="#C8C8C8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:gravity="center"
+                    android:text="Mulai"
+                    android:textColor="#C2C2C2"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardLatihan5"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@drawable/card_makanan"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardLatihan4" >
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@drawable/daytwo"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Day 5"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_18ssp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="10 mnt"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="#C8C8C8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:gravity="center"
+                    android:text="Mulai"
+                    android:textColor="#C2C2C2"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardLatihan6"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@drawable/card_makanan"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardLatihan5" >
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@drawable/daytwo"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Day 6"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_18ssp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="10 mnt"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="#C8C8C8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:gravity="center"
+                    android:text="Mulai"
+                    android:textColor="#C2C2C2"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardLatihan7"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@drawable/card_makanan"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardLatihan6" >
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:background="@drawable/daytwo"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_55sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Day 7"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_18ssp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="10 mnt"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_11ssp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/_1sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:background="#C8C8C8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:gravity="center"
+                    android:text="Mulai"
+                    android:textColor="#C2C2C2"
+                    android:textSize="@dimen/_13ssp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_50sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardLatihan7" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
