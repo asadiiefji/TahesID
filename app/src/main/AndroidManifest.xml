@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tahesid">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,17 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TahesID">
+        <activity android:name=".Profile"></activity>
         <activity
             android:name=".MainMenu"
             android:label="@string/title_activity_main_menu"></activity>
-        <activity android:name=".Makanan">
-
-        </activity>
-        <activity android:name=".Home"></activity>
+        <activity android:name=".Makanan"></activity>
+        <activity android:name=".Home" />
         <activity android:name=".TinggiBadan" />
-        <activity android:name=".BeratBadan" />
+        <activity android:name=".BeratBadan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".PilihTarget" />
-        <activity android:name=".Login" >
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
