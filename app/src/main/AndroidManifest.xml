@@ -11,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TahesID">
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Profile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainMenu"
             android:label="@string/title_activity_main_menu"></activity>
@@ -19,11 +25,7 @@
         <activity android:name=".Home" />
         <activity android:name=".TinggiBadan" />
         <activity android:name=".BeratBadan">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".PilihTarget" />
         <activity android:name=".Login">
