@@ -26,6 +26,7 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/btn_lebih_berat"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_145sdp"
             android:background="@drawable/card_target_a"
@@ -51,6 +52,7 @@
                 android:layout_marginTop="@dimen/_5sdp"/>
 
             <ImageButton
+                android:id="@+id/mulai_lebih_berat"
                 android:layout_width="@dimen/_61sdp"
                 android:layout_height="@dimen/_16sdp"
                 android:background="@drawable/btn_mulai"
@@ -58,6 +60,7 @@
                 android:layout_marginTop="@dimen/_5sdp"/>
 
             <TextView
+                android:id="@+id/progrss_berat"
                 android:layout_width="@dimen/_125sdp"
                 android:layout_height="wrap_content"
                 android:text="0 / 10"
@@ -69,6 +72,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/btn_ideal"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_145sdp"
             android:background="@drawable/card_target_b"
@@ -95,6 +99,7 @@
                 android:layout_marginTop="@dimen/_5sdp"/>
 
             <ImageButton
+                android:id="@+id/mulai_ideal"
                 android:layout_width="@dimen/_61sdp"
                 android:layout_height="@dimen/_16sdp"
                 android:background="@drawable/btn_mulai"
@@ -102,6 +107,7 @@
                 android:layout_marginTop="@dimen/_5sdp"/>
 
             <TextView
+                android:id="@+id/progress_ideal"
                 android:layout_width="@dimen/_125sdp"
                 android:layout_height="wrap_content"
                 android:text="0 / 10"
@@ -113,6 +119,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/btn_lebih_ringan"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_145sdp"
             android:background="@drawable/card_target_c"
@@ -139,6 +146,7 @@
                 android:layout_marginTop="@dimen/_5sdp"/>
 
             <ImageButton
+                android:id="@+id/mulai_lebih_ringan"
                 android:layout_width="@dimen/_61sdp"
                 android:layout_height="@dimen/_16sdp"
                 android:background="@drawable/btn_mulai"
@@ -146,6 +154,7 @@
                 android:layout_marginTop="@dimen/_5sdp"/>
 
             <TextView
+                android:id="@+id/progress_ringan"
                 android:layout_width="@dimen/_125sdp"
                 android:layout_height="wrap_content"
                 android:text="0 / 10"

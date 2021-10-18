@@ -19,11 +19,6 @@
         <activity android:name=".Home" />
         <activity android:name=".TinggiBadan" />
         <activity android:name=".BeratBadan">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".PilihTarget" />
         <activity android:name=".Login">
