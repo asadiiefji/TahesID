@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "456454152474",
+    "project_id": "tahes-id",
+    "storage_bucket": "tahes-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456454152474:android:317bf94f4943c5c4d74ca3",
+        "android_client_info": {
+          "package_name": "com.example.tahesid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456454152474-6vsk7dv30vm1enc395u1k657qdheck6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tahesid",
+            "certificate_hash": "4319a98ff47974e4a315b741ee8905e65dcd5ee5"
+          }
+        },
+        {
+          "client_id": "456454152474-aru28q4r6266lkq4gbaaajqjb2cq2hph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP3rZ4urlx5rtsZMgS0B4GIE32NgbDbo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456454152474-aru28q4r6266lkq4gbaaajqjb2cq2hph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
