@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "456454152474",
+    "firebase_url": "https://tahes-id-default-rtdb.firebaseio.com",
     "project_id": "tahes-id",
     "storage_bucket": "tahes-id.appspot.com"
   },
@@ -19,6 +20,14 @@
           "android_info": {
             "package_name": "com.example.tahesid",
             "certificate_hash": "4319a98ff47974e4a315b741ee8905e65dcd5ee5"
+          }
+        },
+        {
+          "client_id": "456454152474-hj2pcnd1tshve6ma48o52am5qq6i9i4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tahesid",
+            "certificate_hash": "c762ff796abe9e2b7a15485114b98aa6fa8328a1"
           }
         },
         {

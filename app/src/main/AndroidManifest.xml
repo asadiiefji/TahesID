@@ -25,7 +25,6 @@
         <activity android:name=".Home" />
         <activity android:name=".TinggiBadan" />
         <activity android:name=".BeratBadan">
-
         </activity>
         <activity android:name=".PilihTarget" />
         <activity android:name=".Login">
