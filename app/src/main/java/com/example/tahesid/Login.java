@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -65,7 +66,7 @@ public class Login extends AppCompatActivity {
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser!=null){
-
+            startActivity(new Intent(Login.this,PilihTarget.class));
         }
     }
     private void signIn() {
@@ -105,6 +106,11 @@ public class Login extends AppCompatActivity {
                                     if (!snapshot.hasChild(mAuth.getCurrentUser().getUid())) {
                                         User user = new User(0,0,0,0,0);
                                         rootRef.child(mAuth.getCurrentUser().getUid()).setValue(user);
+                                        Intent intent = new Intent(Login.this,PilihTarget.class);
+                                        startActivity(intent);
+                                    }else {
+                                        Intent intent = new Intent(Login.this,PilihTarget.class);
+                                        startActivity(intent);
                                     }
                                 }
 
@@ -113,9 +119,8 @@ public class Login extends AppCompatActivity {
 
                                 }
                             });
-                            FirebaseUser user = mAuth.getCurrentUser();
-                            Intent intent = new Intent(Login.this,PilihTarget.class);
-                            startActivity(intent);
+
+
 
                         } else {
                             // If sign in fails, display a message to the user.
