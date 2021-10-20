@@ -60,24 +60,46 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/makanan1"
+                android:id="@+id/riwayat1"
                 android:layout_width="@dimen/_280sdp"
-                android:layout_height="@dimen/_180sdp"
+                android:layout_height="@dimen/_120sdp"
                 android:gravity="center"
                 android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_light_orange_radius"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-                <ImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:background="@drawable/makanan"
-                    android:scaleType="centerCrop" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:background="@drawable/makanan"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="Makanan"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
 
                 <LinearLayout
                     android:layout_width="@dimen/_130sdp"
-                    android:layout_height="@dimen/_180sdp"
+                    android:layout_height="@dimen/_120sdp"
                     android:layout_marginLeft="@dimen/_20sdp"
                     android:orientation="vertical">
 
@@ -92,19 +114,19 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/tanggal"
+                        android:id="@+id/tanggal1"
                         android:layout_width="@dimen/_125sdp"
                         android:layout_height="@dimen/_20sdp"
                         android:layout_marginTop="@dimen/_7sdp"
                         android:text="10 Oktober 2021"
-                        android:textColor="#717171"
+                        android:textColor="#323C47"
                         android:textSize="@dimen/_12ssp" />
 
                     <View
                         android:layout_width="@dimen/_125sdp"
                         android:layout_height="@dimen/_1sdp"
                         android:layout_marginTop="@dimen/_8sdp"
-                        android:background="#C8C8C8" />
+                        android:background="#323C47" />
 
                     <TextView
                         android:id="@+id/harga1"
@@ -121,13 +143,265 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/riwayat2"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_light_orange_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/riwayat1">
 
-<!--            <LinearLayout-->
-<!--                android:layout_width="@dimen/_280sdp"-->
-<!--                android:layout_height="@dimen/_60sdp"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/makanan3"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"/>-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:background="@drawable/minuman"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="Minuman"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="Nice Vegetable"
+                        android:gravity="center_vertical"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tanggal2"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="10 Oktober 2021"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <View
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:background="#323C47" />
+
+                    <TextView
+                        android:id="@+id/harga2"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:gravity="center_vertical"
+                        android:text="21.000"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/riwayat3"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_light_orange_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/riwayat2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:background="@drawable/makanan"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="Makanan"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="Nice Vegetable"
+                        android:gravity="center_vertical"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tanggal3"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="10 Oktober 2021"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <View
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:background="#323C47" />
+
+                    <TextView
+                        android:id="@+id/harga3"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:gravity="center_vertical"
+                        android:text="21.000"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/riwayat4"
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_light_orange_radius"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/riwayat3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:background="@drawable/makanan"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="Makanan"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="Nice Vegetable"
+                        android:gravity="center_vertical"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_14ssp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tanggal4"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_7sdp"
+                        android:text="10 Oktober 2021"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <View
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:background="#323C47" />
+
+                    <TextView
+                        android:id="@+id/harga4"
+                        android:layout_width="@dimen/_55sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:gravity="center_vertical"
+                        android:text="21.000"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textColor="#323C47"
+                        android:textSize="@dimen/_12ssp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="@dimen/_280sdp"
+                android:layout_height="@dimen/_60sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/riwayat4" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
