@@ -11,16 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TahesID">
-        <activity android:name=".Profile">
-        </activity>
+        <activity android:name=".ItemTrainer"></activity>
+        <activity android:name=".Profile"></activity>
         <activity
             android:name=".MainMenu"
-            android:label="@string/title_activity_main_menu"></activity>
-        <activity android:name=".Makanan"></activity>
+            android:label="@string/title_activity_main_menu" />
+        <activity android:name=".Makanan" />
         <activity android:name=".Home" />
         <activity android:name=".TinggiBadan" />
-        <activity android:name=".BeratBadan">
-        </activity>
+        <activity android:name=".BeratBadan"></activity>
         <activity android:name=".PilihTarget" />
         <activity android:name=".Login">
             <intent-filter>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemTrainer">
+
+    <LinearLayout
+        android:id="@+id/cariTrainer"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_white_radius"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_105sdp"
+                android:layout_height="@dimen/_105sdp"
+                android:background="@drawable/dummy_foto" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="@dimen/_125sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:gravity="center_vertical"
+                    android:text="Jane Cooper"
+                    android:textColor="#323C47"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/_125sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/rating1"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:gravity="center_vertical"
+                        android:text="4.5"
+                        android:textColor="#717171"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <TextView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:gravity="center_vertical"
+                        android:text="/5.0"
+                        android:textColor="#717171"
+                        android:textSize="@dimen/_12ssp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_12sdp"
+                        android:layout_height="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:background="@drawable/bintang" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:background="@drawable/ic_profile_satu" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:background="@drawable/ic_profile_dua" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_125sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <View
+                        android:layout_width="@dimen/_1sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:background="#C2C2C2" />
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_55sdp"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="@dimen/_110sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="1.2km"
+                            android:textColor="#717171"
+                            android:textSize="@dimen/_11ssp" />
+
+                        <TextView
+                            android:layout_width="@dimen/_110sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="Fitnes, Sepeda"
+                            android:textColor="#717171"
+                            android:textSize="@dimen/_11ssp" />
+
+                        <TextView
+                            android:layout_width="@dimen/_110sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:text="120k - 290k"
+                            android:textColor="#717171"
+                            android:textSize="@dimen/_11ssp" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/ic_btn_selengkapnya" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
